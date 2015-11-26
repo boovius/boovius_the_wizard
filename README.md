@@ -90,12 +90,7 @@ More general [install docs](http://support.ghost.org/installation/) here in case
 
 
 # Deploying Ghost
-
-The easiest way to deploy Ghost is on our official <strong><a href="https://ghost.org/pricing/">Ghost(Pro)</a></strong> hosted platform. This service funds the Ghost Foundation, which makes actively maintaining this project possible.
-
-Also, you get to save yourself a lot of wasted time and headaches by deploying a new instance of Ghost to a managed server with a global content delivery network in just a few clicks.
-
-[Other options](http://support.ghost.org/deploying-ghost/) are available if you prefer playing around with servers by yourself.
+NODE_ENV=production forever start index.js
 
 
 # Staying Up to Date

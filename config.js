@@ -11,7 +11,16 @@ config = {
     // Configure your URL and mail settings here
     production: {
         url: 'http://booviusthewizard.com',
-        mail: {},
+        mail: {
+              transport: 'SMTP',
+              options: {
+                  service: 'Mailgun',
+                  auth: {
+                      user: 'postmaster@booviusthewizard.com',
+                      pass: 'bceb0899433134e65a75a53e27829d9b'
+                  }
+              }
+	},
         database: {
             client: 'sqlite3',
             connection: {
